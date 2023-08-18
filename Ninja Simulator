@@ -462,7 +462,6 @@ Section:NewToggle("Auto Punch", "SUPER OP DONT LET OWNER SEE IT 😭😭", funct
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DoAction"):FireServer(unpack(args))
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(309, 35, 1127)
 end
     else
         _G.loop = false
@@ -475,7 +474,6 @@ end
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DoAction"):FireServer(unpack(args))
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(309, 35, 1127)
 end
     end
 end)
